@@ -126,3 +126,17 @@ footer {
 footer p {
     margin: 0;
 }
+/*Responsividade para celulares*/
+@media (max-width: 480px) {
+	
+	h1{
+		font-side: 1.8rem;
+	}
+
+	section input{
+		width: 17rem;
+	}
+
+}
+
+
