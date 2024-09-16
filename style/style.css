@@ -126,6 +126,25 @@ footer {
 footer p {
     margin: 0;
 }
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    /* Tamanho da fonte em telas menores */
+    /*letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+  }
+
+
 /* Responsividade para celulares */
 @media (max-width: 480px) {
 
@@ -158,9 +177,14 @@ footer p {
     font-size: 1.1rem;
     /* Tamanho da fonte dos títulos em telas pequenas */
   }
+  .service {
+    height: auto;
+  }
 
   footer {
     font-size: 0.9rem;
     /* Tamanho da fonte do rodapé em telas pequenas */
   }
 }
+
+
